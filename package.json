@@ -5,19 +5,18 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www",
-    "sequelize": "sequelize-cli"
+    "knex": "knex"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "express-handlebars": "^5.1.0",
+    "knex": "^0.21.6",
     "morgan": "~1.9.1",
-    "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "sequelize-cli": "^6.2.0"
+    "nodemon": "^2.0.4"
   }
 }
