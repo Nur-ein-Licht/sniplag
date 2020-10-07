@@ -1,13 +1,48 @@
-<html>
-
-<head>
-  <title>SnipLag</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
-
-<body>
-  <h1>SnipLag</h1>
-  <p>Yet Another Pastebin</p>
-</body>
-
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <style>
+      button {
+        background-color:#333;
+        border:1px solid #aaa;
+        border-radius:10pt;
+        color:#aaa;
+      }
+      body {
+        background-color:#111;
+        color:#aaa;
+        font-family:sans-serif;
+      }
+      #main {
+        margin:0 auto;
+        text-align:center;
+        width:720pt;
+      }
+      #paste {
+        background-color:#333;
+        border:1px solid #aaa;
+        color:#aaa;
+        height:360pt;
+        width:720pt;
+      }
+      .textbox {
+        background-color:#333;
+        border:1px solid #aaa;
+        color:#aaa;
+      }
+    </style>
+    <title>SnipLag</title>
+  </head>
+  <body>
+    <div id='main'>
+      <h1>SnipLag</h1>
+      <form action='./' method='post'>
+        <p>
+          <textarea id='paste'></textarea>
+        </p>
+        <button type='submit'>Save Paste</button>
+      </form>
+    </div>
+  </body>
 </html>
